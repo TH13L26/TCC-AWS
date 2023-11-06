@@ -1,0 +1,213 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(#222651, #1b1d35);
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(16, 137, 212);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.nav img{
+    width: 100px;
+}
+.nav a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bolder;
+}
+
+.nav a:hover {
+    color: #fff;
+    transition: .2s ease-in-out;
+    border-top: 5px solid rgb(255, 255, 255);
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+#cont_profile{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 8%;
+    margin-bottom: 7%;
+    align-items: center;
+    
+    
+}
+
+.row_profile{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.profile{
+    width: 170px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    transition: .3s ease-out;
+    
+}
+.profile img{
+    width: 90%;
+    height: auto;
+    padding: 10px;
+}
+
+.profile a{
+    text-decoration: none;
+    color: black;
+}
+
+.profile:hover{
+
+    transform: translateY(-20px) scale(1.1);
+    transition: all .5s;
+    box-shadow: 0px 6px 14px #00000050;
+    
+}
+
+
+#logo_curso{
+    display: flex;
+    justify-content: center;
+}
+#logo_curso img{
+    width: 100px;
+}
+
+
+/* portifolio */
+
+
+.img_profile{
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 10%;
+
+}
+#section_header{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    background-attachment: fixed;
+}
+
+#header{
+    width: 100%;
+    max-width: 1500px;
+    height: 100%;
+    margin: auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header h1{
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+#cont_header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.tittle_link {
+    color: #222651;
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+    text-decoration: none;
+}
+
+#icons{
+    display: flex;
+    margin-top: 10px;
+}
+
+#icons img, .header_linkedin{
+    width: 50px;
+    height: 50px;
+}
+
+.cont_p{
+    max-width: 1500px;
+    background-color: #fff;
+    color: #000;
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.cont_p p{
+    font-size: 26px;
+    padding: 5px;
+}
+
+#cont_projetos{
+    max-width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5px;
+    margin: auto;
+    
+}
+
+.projetos{
+    width: 300px;
+    height: auto;
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+.projetos a{
+    text-decoration: none;
+    color: black;
+}
+
+.projetos img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+#h1_projetos {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
